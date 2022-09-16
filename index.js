@@ -8,12 +8,6 @@ const app = express();
 
 
 app.get("/", async (req, res) => {    
-    await s3.putObject({
-        Body: JSON.stringify(firebaseConfig),
-        Bucket: "cyclic-dark-tan-clownfish-robe-eu-west-3",
-        Key: "serviceAccountKey.json",
-      }).promise()
-
     res.send("fuck off");
 })
 
