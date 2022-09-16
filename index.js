@@ -8,7 +8,7 @@ const app = express();
 
 
 app.get("/", async (req, res) => {    
-    res.send("fuck off");
+    res.send("fuck off, please");
 })
 
 app.get("/users/", async (req, res) => {    
